@@ -9,3 +9,69 @@
     display: table;
     clear: both;
 }
+
+a {
+    text-decoration-line: none;
+}
+
+body {
+    font-family: whitney, Helvetica, Neue,
+    Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #23272a;
+}
+
+header{
+    background-color: rgba(49, 97, 224, 255);
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: 60px;
+}
+
+#logo, ul {
+    float:left
+}
+
+img {
+    vertical-align: middle;
+} 
+
+ul {
+    list-style-type: none;
+    position: relative;
+    left:25%;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+li a {
+    
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#accedi {
+    float: right;
+    color:#23272a;
+}
+
+#accedi .btn {
+    background-color: white;
+    border-radius: 40px;
+    padding:10px 14px;
+    font-size: 14px;
+    display: inline;
+}
+
+#pho-princ img {
+    width: 100%;
+}

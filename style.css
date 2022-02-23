@@ -60,6 +60,10 @@ li a {
     vertical-align: middle;
 }
 
+.under:hover {
+    border-bottom: 1px white solid;
+}
+
 #accedi {
     float: right;
     color:#23272a;
@@ -72,6 +76,11 @@ li a {
     font-size: 14px;
     display: inline;
     color:#23272a;
+}
+
+.btn:hover {
+    color:white;
+    background-color: #23272a;
 }
 
 #pho-princ img {
@@ -114,6 +123,11 @@ p {
 #browser .btn {
     background-color:#23272a;
     color: white;
+}
+
+#browser .btn:hover {
+    color:#23272a;
+    background-color: white;
 }
 
 .even {
@@ -206,4 +220,13 @@ h2 {
 .gray .btn {
     background-color: #9788e1;
     color:white;
+}
+
+.gray .btn:hover {
+    background-color: white;
+    color:#9788e1;
+}
+
+footer {
+    background-color: #23272a;
 }

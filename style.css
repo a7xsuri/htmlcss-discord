@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .clearfix::after {
@@ -36,7 +37,7 @@ nav {
     float:left
 }
 
-img {
+#logo img {
     vertical-align: middle;
 } 
 
@@ -110,7 +111,75 @@ p {
     display: inline-block;
 }
 
-#browser .btn {
+#browser.btn {
     background-color:#23272a;
     color: white;
 }
+
+.even {
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.even img {
+    float: left;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.even .mini-testo {
+    float: left;
+    padding-left: 50px;
+    padding-top:40px;
+    width: 34%;
+}
+
+.mini-testo p {
+    color: #23272a;
+    text-align: left;
+}
+
+.odd {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+
+.odd img {
+    color: gray;
+}
+
+.odd img {
+    float: right;
+    padding-left: 50px;
+}
+
+.odd .mini-testo {
+    float: right;
+
+    padding-top:40px;
+    width: 34%;
+}
+
+.mini-testo p {
+    color: #23272a;
+    text-align: left;
+}
+
+#gray {
+    background-color:#efefef;
+}
+
+#wave2{
+    transform: rotate(180deg);
+}
+
+#wave1 {
+    margin-bottom: -5px;
+}
+

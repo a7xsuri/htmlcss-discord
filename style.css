@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    
 }
 
 .clearfix::after {
@@ -111,7 +111,7 @@ p {
     display: inline-block;
 }
 
-#browser.btn {
+#browser .btn {
     background-color:#23272a;
     color: white;
 }
@@ -171,7 +171,7 @@ h2 {
     text-align: left;
 }
 
-#gray {
+.gray {
     background-color:#efefef;
 }
 
@@ -183,3 +183,27 @@ h2 {
     margin-bottom: -5px;
 }
 
+#last-part {
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#last-part p {
+    text-align: center;
+}
+
+#last {
+    font-size: 27px;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+}
+
+.gray .btn {
+    background-color: #9788e1;
+    color:white;
+}

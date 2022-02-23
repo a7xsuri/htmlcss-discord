@@ -64,14 +64,53 @@ li a {
     color:#23272a;
 }
 
-#accedi .btn {
+.btn {
     background-color: white;
     border-radius: 40px;
     padding:10px 14px;
     font-size: 14px;
     display: inline;
+    color:#23272a;
 }
 
 #pho-princ img {
     width: 100%;
+    position: relative;
+}
+#testo {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#arrow{
+ font-size: 20px;
+}
+
+#mac {
+    display: inline-block;
+    padding-left:200px;
+    padding-right:20px;
+}
+
+#browser {
+    display: inline-block;
+}
+
+#browser .btn {
+    background-color:#23272a;
+    color: white;
 }

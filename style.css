@@ -33,11 +33,11 @@ nav {
     line-height: 60px;
 }
 
-#logo, ul {
+.logo, ul {
     float:left
 }
 
-#logo img {
+.logo img {
     vertical-align: middle;
 } 
 
@@ -229,4 +229,82 @@ h2 {
 
 footer {
     background-color: #23272a;
+}
+
+.macromenu {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.fir-col h2 {
+    color: #9788e1;
+    font-size: 30px;
+}
+
+.fir-col {
+    float: left;
+    width: 20%;
+}
+
+p img {
+    height: 15px;
+}
+
+.left {
+    float: left;
+    width: 51%;
+}
+
+.freccia {
+    bottom: 10px;
+    position: relative;
+    font-size: 35px;
+}
+
+i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu-col {
+    list-style: none;
+    color: white;
+    float: left;
+    padding: 0 30px;
+}
+
+
+
+.menu-col li {
+    display: block;
+    padding: 5px 14px;
+}
+
+.purple {
+    color: #9788e1;
+}
+
+.last-part {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.last-part .logo {
+    padding: 20px;
+}
+
+#registrati {
+    padding-top: 20px;
+}
+
+#registrati .btn {
+    background-color: #9788e1;
+    color:white;
+    float: right;
+}
+
+#registrati .btn:hover {
+    background-color: white;
+    color:#9788e1;
 }
